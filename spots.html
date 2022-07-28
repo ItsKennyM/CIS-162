@@ -3,6 +3,7 @@
 <head>
 <title>Spots</title>
 <meta charset="utf-8">
+    
     <link rel="stylesheet" href="page.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,7 +25,9 @@
     <a href="hotel.html">HOTELS</a>
     <a href="index.html">HOME</a>
 </div>
-    <p style="background-color: yellow">Long Image to be added here</p>
+    <div class="imghead">
+    <p>Travelling on a college budget (image will be added thats more travel like)</p>
+    </div>
     </header>
 
 <div class="right">
@@ -38,16 +41,61 @@ Ham strip steak ball tip ground round, pancetta boudin tongue pork porchetta sir
 
 </div>  
 <div class="left">
-<h1>Ipsum</h1>
-
-<p>Shoulder chislic ribeye turducken burgdoggen salami pork chop frankfurter picanha, tail prosciutto strip steak. Bresaola tongue ham hock chicken shank prosciutto doner sirloin drumstick cupim hamburger swine spare ribs frankfurter. Picanha tenderloin chicken hamburger. Tenderloin buffalo tail ribeye beef ribs ham hock andouille ball tip swine filet mignon. Pork chop meatloaf short loin buffalo jerky. Kevin kielbasa swine shankle ground round, tenderloin flank brisket chislic pork loin. T-bone alcatra brisket shank shankle cupim leberkas chicken pork loin pork chop.
-
-Porchetta beef ribs tenderloin chuck cupim turducken short ribs shoulder rump filet mignon kielbasa bacon. Chuck bacon jowl meatloaf. Burgdoggen tri-tip pork cupim swine, pork belly t-bone tongue. Spare ribs andouille jerky pork loin kevin turducken. Kevin kielbasa porchetta, ham hock strip steak bresaola fatback meatloaf pig. Doner prosciutto frankfurter alcatra swine.</p>
-    
-<p>Brisket swine pork fatback. Shoulder t-bone sausage meatball burgdoggen alcatra cow biltong ball tip tenderloin jerky turkey pastrami. T-bone cupim doner pig chislic meatloaf. Bacon chicken meatball pork loin pancetta swine capicola hamburger pork alcatra meatloaf. T-bone capicola bresaola pancetta bacon boudin.
-
-Turducken biltong t-bone ham tongue ground round chuck filet mignon corned beef landjaeger meatball short ribs. Ham short ribs cupim shankle hamburger tri-tip cow capicola pork loin spare ribs tongue. Swine picanha pig chicken bacon. Salami landjaeger shank swine pig ball tip t-bone short ribs. Shankle pancetta leberkas swine. Prosciutto chislic tongue beef ribs fatback short loin salami pork loin brisket biltong chuck. Bresaola leberkas short loin, ham andouille bacon doner landjaeger ball tip chuck turducken brisket.</p>
-
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+    <div class="row">
+    <div class="col-25">
+      <label for="lname">Social Security #</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="123-45-6789">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+        
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="please enter your personal data so i can sell it for money!" style="height:200px"></textarea>
+    </div>
+  </div>
+      <p>Sorry in advance for selling your data.(once i learn how to)</p>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit">
+     <input type="reset" value="Reset">
+  </div>
+  </form>
+</div>
     
 </div>
 </body>
